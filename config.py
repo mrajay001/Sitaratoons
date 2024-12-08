@@ -16,7 +16,7 @@ API_HASH = os.environ.get("API_HASH", "975c7f22f108ec1635d85ad3e05d705b")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6692613520"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6289556804"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -34,7 +34,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "onylinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "007f06599d052639fcd67475b1518c1e8d7d1453")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_to_download_ST/4") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -45,7 +45,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6692613520").split()):
+    for x in (os.environ.get("ADMINS", "6289556804 6692613520").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -66,7 +66,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6692613520)
+ADMINS.append(6289556804)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
