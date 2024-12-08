@@ -19,7 +19,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002490911230"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "6692613520"))
 
 #Port
-PORT = os.environ.get("PORT", "8585")
+PORT = os.environ.get("PORT", "8080")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
@@ -30,11 +30,11 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 # check my discription to help by using my refer link of shareus.io
 # 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkpays.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "abaa8c41441dffcc99b1429c9f328a7e822a3e3c")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "onylinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "007f06599d052639fcd67475b1518c1e8d7d1453")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_to_download_ST") # shareus ka tut_vid he 
+TUT_VID = os.environ.get("TUT_VID", "") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
