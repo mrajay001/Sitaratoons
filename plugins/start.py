@@ -136,8 +136,8 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton('🍁 ᴍᴏᴠɪᴇs', url='https://t.me/+SrRuLfKjAY0xZDU1')
                 ],
                 [
-                    InlineKeyboardButton('🔞 ʜᴇɴᴛᴀɪ  🚀', url='https://t.me/+Lue7ExXUBak1NDhl'),
-                    InlineKeyboardButton('🔞 ᴊᴀᴘᴀɴᴇꜱᴇ 🚀', url='https://t.me/+Lue7ExXUBak1NDhl')
+                    InlineKeyboardButton('🔞 ʜᴇɴᴛᴀɪ  ', url='https://t.me/+Lue7ExXUBak1NDhl'),
+                    InlineKeyboardButton('🔞 ᴊᴀᴘᴀɴᴇꜱᴇ ', url='https://t.me/+jD4qzJeB6E0zMjBl')
                 ]
                 ]
             
